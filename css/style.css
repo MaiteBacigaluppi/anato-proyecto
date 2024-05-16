@@ -1,0 +1,46 @@
+h1{color: bisque; text-align: center;}
+h2{color: beige; padding: 0px 30px;}
+h3{color: beige; font-size: 125%; padding: 0px 30px;}
+header{color: #0084ff;float: right;} 
+body{background-color: black;}
+p{color: aquamarine;}
+ol{color: blanchedalmond;}
+a{color: rgb(217, 118, 228); text-decoration: none;}
+li{color: antiquewhite;}
+.verde{color: rgb(122, 229, 137);}
+.naranja{color: rgb(211, 137, 87);}
+.azul{color: #0084ff;}
+.imagen-portada{float: right; width: 16%; text-align: right;}
+.imagen {display: flex; justify-content: right; float:right;}
+.naranja {text-decoration: none;}
+.img-mov {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; }
+p{font-size: 120%;text-align:justify; margin: 40px;}
+li{font-size: 120%; text-align: left; margin: 0px 50px}
+nav{font-size: 130%;}
+footer{background-color: rgb(50, 45, 45); padding: 10px ; border: 2px solid rgb(47, 255, 158); margin: 10px;}
+img {width: 30%; position:relative; margin:20px; }
+section{text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+.footer-one{ 
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   height: 20px;}
+.video-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; }
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh; }
+
