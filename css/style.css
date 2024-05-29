@@ -1,6 +1,6 @@
 h1{color: bisque; text-align: center;}
 h2{color: beige; padding: 0px 30px;}
-h3{color: beige; font-size: 120%; padding: 0px 30px;}
+h3{color: beige; font-size: 120%; padding: 0px 20px;}
 header{color: #0084ff;float: right;} 
 body{background-color: black;}
 p{color: aquamarine;}
@@ -13,13 +13,14 @@ li{color: antiquewhite;}
 .imagen-portada{float: right; width: 16%; text-align: right;}
 .imagen {display: flex; justify-content: right; float:right;}
 .naranja {text-decoration: none;}
+.espacio { margin: 2px 40px;}
 .img-mov {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     text-align: center; }
 p{font-size: 115%;text-align:justify; margin: 40px;}
-li{font-size: 115%; text-align: left; margin: 0px 50px}
+li{font-size: 115%; text-align: left; margin: 0px 10px}
 nav{font-size: 120%; margin: 15px;}
 footer{background-color: rgb(50, 45, 45); padding: 10px ; border: 2px solid rgb(47, 255, 158); margin: 10px;}
 img {width: 30%; position:relative; margin:20px; }
