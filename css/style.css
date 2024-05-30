@@ -61,8 +61,15 @@ li {
 
 .imagen-portada {
   float: right;
-  width: 16%;
   text-align: right;
+  height: 300px;
+  width: 200px;
+}
+
+.imagen-portada:hover {
+  height: 400px;
+  width: 300px;
+  transition: 4s;
 }
 
 .imagen {
