@@ -1,0 +1,145 @@
+h1 {
+  color: bisque;
+  text-align: center;
+}
+
+h2 {
+  color: beige;
+  padding: 0px 30px;
+  font-size: 120%;
+}
+
+h3 {
+  color: beige;
+  padding: 0px 30px;
+  font-size: 120%;
+  text-align: left;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  color: #0084ff;
+  float: right;
+}
+
+p {
+  color: aquamarine;
+  margin: 40px;
+  font-size: 115%;
+  text-align: justify;
+}
+
+ol {
+  color: blanchedalmond;
+}
+
+a {
+  color: rgb(217, 118, 228);
+  text-decoration: none;
+}
+
+li {
+  color: antiquewhite;
+  font-size: 115%;
+  text-align: left;
+}
+
+.verde {
+  color: rgb(122, 229, 137);
+}
+
+.naranja {
+  color: rgb(211, 137, 87);
+}
+
+.azul {
+  color: #ff005d;
+}
+
+.imagen-portada {
+  float: right;
+  text-align: right;
+  height: 300px;
+  width: 200px;
+}
+
+.imagen-portada:hover {
+  height: 400px;
+  width: 300px;
+  transition: 4s;
+}
+
+.imagen {
+  display: flex;
+  justify-content: right;
+}
+
+.naranja {
+  text-decoration: none;
+}
+
+.espacio {
+  margin: 2px 20px;
+}
+
+.img-mov, .video--mov {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  font-size: 120%;
+  margin: 15px;
+}
+
+footer {
+  background-color: rgb(50, 45, 45);
+  padding: 10px;
+  border: 2px solid rgb(47, 255, 158);
+  margin: 10px;
+}
+
+img {
+  width: 30%;
+  position: relative;
+  margin: 20px;
+}
+
+section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
